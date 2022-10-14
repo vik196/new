@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+
+        <form action="" method="post">
+            {% csrf_token %}
+            <h1>SUBMIT FORM HERE</h1>
+            name <input type="text"name="name"><br><br>
+            field <input type="text" name="field"><br><br>
+            salary <input type="number" name="salary"><br><br>
+            assets <input type="text" name="assets"><br><br>
+            <input type="submit" value="submit"><br><br>
+            
+        </form>
+    </center>
+</body>
+</html>
